@@ -1,0 +1,30 @@
+.app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/src/assets/gradient-abstract-background.jpg") ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.form {
+  background: white;
+  padding: 2rem 3rem;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-flow: column;
+  width: 90%;
+  max-width: 560px;
+}
+
+.form h1 {
+  color: #31125f;
+}
+
+.form p {
+  color: #696969;
+}
